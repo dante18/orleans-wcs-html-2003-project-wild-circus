@@ -1,0 +1,21 @@
+body {
+  font-family: $main-font;
+  color: #222222;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+a:focus, input:focus, textarea:focus, button:focus {
+  text-decoration: none;
+  outline: none
+}
+
+a:focus, a:hover {
+  text-decoration: none
+}
