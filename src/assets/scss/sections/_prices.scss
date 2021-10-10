@@ -1,5 +1,6 @@
 .prices-section {
   background-color: #ffffff;
+  margin-bottom: 0;
 }
 
 .prices-section .section-header .title {
@@ -9,7 +10,11 @@
   font-size: 40px;
 }
 
-.prices-section .price-tabs {
+.prices-section .section-content {
+  padding-bottom: 50px;
+}
+
+.prices-section .section-content .price-tabs {
   background-color: #fff;
   -webkit-box-shadow: 0 5px 20px 0 rgba(39, 39, 39, 0.1);
   box-shadow: 0 5px 20px 0 rgba(39, 39, 39, 0.1);
@@ -21,7 +26,7 @@
 }
 
 @media (min-width: 768px) {
-  .prices-section .price-tabs {
+  .prices-section .section-content .price-tabs {
     margin-bottom: 60px;
   }
 }
@@ -41,22 +46,22 @@
 }
 
 @media (min-width: 768px) {
-  .prices-section .price-tabs .nav-link {
+  .prices-section .section-content .price-tabs .nav-link {
     padding: 12px 40px;
   }
 }
 
-.prices-section .price-tabs .nav-link.active {
+.prices-section .section-content .price-tabs .nav-link.active {
   background-color: #00b5ec;
   color: #fff;
 }
 
-.prices-section .card-heading {
+.prices-section .section-content .card-heading {
   text-transform: uppercase;
   text-align: center;
 }
 
-.prices-section .prices-section .card-content {
+.prices-section .section-content .card-content {
   background-color: #ffffff;
   height: 522px;
 }
