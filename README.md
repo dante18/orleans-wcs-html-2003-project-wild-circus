@@ -1,6 +1,7 @@
-# webpack-starter-kit #
+# wild-circus #
 
-A lightweight foundation for your next webpack based frontend project.
+The wild-circus project is a (fictitious) project whose objective is the 
+creation of a showcase site for a circus.
 
 ## Project Structure
 ``` bash
@@ -42,11 +43,3 @@ A lightweight foundation for your next webpack based frontend project.
 4. Run `yarn run build` to build project
 
 ## Versioning
-* 0.2.0
-  * webpack manager optimization
-  * Add support of Vue JS (Use as an external library)
-
-
-* 0.1.0
-    * Installation and configuration of webpack-dev-server (image, css/scss support)
-    * Configuration of webpack compilation functions
