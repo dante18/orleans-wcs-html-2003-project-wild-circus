@@ -17,7 +17,7 @@ A lightweight foundation for your next webpack based frontend project.
 ├── .gitignore                                # Sensible defaults for gitignore
 ├── .postcssrc                                # Postcss config
 ├── sass-lint.yml                             # sass lint config
-├── wm.webpack.js                        # Manage webpack configuration
+├── wm.webpack.js                             # Manage webpack configuration
 ├── package.json                              # Build scripts and dependencies
 └── README.md                                 # Default README file
 ```
