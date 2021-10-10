@@ -1,0 +1,39 @@
+.about-section {
+  background: #ffffff;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.about-section-image {
+  position: relative;
+}
+
+.about-section-image .single-image {
+  width: 400px;
+  height: 300px;
+}
+
+.about-section-image .single-image img {
+  width: 100%;
+}
+
+.about-section-image .single-image.image-tow {
+  margin-top: -200px;
+  position: relative;
+  z-index: 5;
+}
+
+.about-section-content h3 {
+  color:#333;
+  padding-bottom:10px;
+  font-size: 40px;
+}
+
+.about-section-content p {
+  margin-bottom: 0;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  color: #646464;
+  font-size: 13px;
+  margin-left: 5px;
+}
