@@ -127,6 +127,13 @@ if (webpackAction === 'devserver') {
           globOptions: {
             ignore: ['.*']
           }
+        },
+        {
+          from: config.app.path.src + '/php',
+          to: config.app.path.public + '/ajax',
+          globOptions: {
+            ignore: ['.*']
+          }
         }
       ]
     })
@@ -297,6 +304,13 @@ if (webpackAction === 'devserver') {
           {
             from: config.app.path.src + '/assets/img',
             to: config.app.path.public + '/dist/img',
+            globOptions: {
+              ignore: ['.*']
+            }
+          },
+          {
+            from: config.app.path.src + '/php',
+            to: config.app.path.public + '/ajax',
             globOptions: {
               ignore: ['.*']
             }

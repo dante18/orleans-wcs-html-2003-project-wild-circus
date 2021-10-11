@@ -28,7 +28,10 @@ class Form {
         }
       })
       .then(function (data) {
-        console.log(data)
+        console.log(data.response.message)
+        if (data.response.message === 'Success') {
+          form.reset()
+        }
       })
       .catch(function (error) {
         console.log(error)
