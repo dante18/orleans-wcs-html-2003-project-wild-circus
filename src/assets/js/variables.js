@@ -3,7 +3,11 @@ export const Variables = {
     form: {
       id: '#contactForm',
       inputCustomClass: '.js-input',
-      btnFormId: '#btn-form-contact'
+      btnFormId: '#btn-form-contact',
+      notification: {
+        id: '#alert-notification',
+        contentCssClass: '.js-notification-text'
+      }
     }
   }
 }

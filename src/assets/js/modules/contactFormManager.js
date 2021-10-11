@@ -6,6 +6,19 @@ export const contactFormManager = {
     const form = new Form(Variables.contact.form.id, Variables.contact.form.inputCustomClass)
     let numberFieldCompleted = 0
 
+    /** Hide the previous notification following a previous send of the form **/
+    window.setTimeout(() => {
+      if (document.querySelector(Variables.contact.form.notification.id).classList.contains('alert-success')) {
+        document.querySelector(Variables.contact.form.notification.id).classList.remove('alert-success')
+        document.querySelector(Variables.contact.form.notification.id).classList.add('d-none')
+      }
+
+      if (document.querySelector(Variables.contact.form.notification.id).classList.contains('alert-danger')) {
+        document.querySelector(Variables.contact.form.notification.id).classList.remove('alert-danger')
+        document.querySelector(Variables.contact.form.notification.id).classList.add('d-none')
+      }
+    }, 3000)
+
     /** Check if all fields are filled to activate the form button **/
     form.getAllFieldForm().forEach((field) => {
       field.addEventListener('change', (event) => {
