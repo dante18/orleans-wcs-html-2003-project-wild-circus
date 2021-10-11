@@ -44,3 +44,5 @@ Thumbs.db
 *.mov
 *.wmv
 
+# other
+.docker
