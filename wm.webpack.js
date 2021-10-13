@@ -108,7 +108,7 @@ if (webpackAction === 'devserver') {
         {
           loader: 'file-loader',
           options: {
-            publicPath: '/dist/',
+            publicPath: './',
             name: 'fonts/[name].[ext]'
           }
         }
