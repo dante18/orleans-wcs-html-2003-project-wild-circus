@@ -1,4 +1,12 @@
 class Http {
+  /**
+   * Generate the request object
+   *
+   * @param url
+   * @param method
+   * @param body
+   * @returns {Request}
+   */
   request (url, method = 'GET', body = null) {
     return new Request(
       url,
@@ -12,6 +20,13 @@ class Http {
     )
   }
 
+  /**
+   * Execute the fetch command
+   *
+   * @param callback
+   * @param request
+   * @param hasData
+   */
   fetchData (callback, request = {}, hasData = true) {
     fetch(request).then(response => {
       const status = [400, 404, 409] // Status for special treatment

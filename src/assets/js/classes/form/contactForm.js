@@ -3,6 +3,12 @@ import { Variables } from '../../variables'
 import Http from '../http/http'
 
 class contactForm extends Form {
+  /**
+   * Checks if a field is valid
+   *
+   * @param field
+   * @returns {boolean}
+   */
   checkFieldIsValid (field) {
     if (this.getFieldType(field) === 'INPUT') {
       if (field.type === 'email') {
@@ -27,10 +33,20 @@ class contactForm extends Form {
     }
   }
 
+  /**
+   * Retrieve the form fields
+   *
+   * @returns {NodeListOf<Element>}
+   */
   getAllFieldForm () {
     return document.querySelectorAll(Variables.contact.form.inputCustomClass)
   }
 
+  /**
+   * Processes the sending of the form
+   *
+   * @param form
+   */
   submit (form) {
     super.submit()
 
