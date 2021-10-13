@@ -46,4 +46,4 @@ Thumbs.db
 
 # other
 .docker
-public/ajax
+public/ajax/ajax.php
