@@ -49,3 +49,32 @@ footer .social-link a i.fa-instagram {
 footer .copyright {
   background-color: rgba(0, 0, 0, 0.2);
 }
+
+@media only (max-width: 250px) {
+  footer .social-link h3 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 230px) and (max-width: 350px) {
+  footer .copyright {
+    font-size: 10px;
+  }
+
+  footer .social-link {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 351px) and (max-width: 398px){
+  footer .copyright {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 399px) and (max-width: 440px) {
+  footer .copyright {
+    font-size: 14px;
+  }
+}
