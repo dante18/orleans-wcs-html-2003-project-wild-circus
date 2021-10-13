@@ -48,8 +48,6 @@ class contactForm extends Form {
    * @param form
    */
   submit (form) {
-    super.submit()
-
     const httpClient = new Http()
     const fieldList = this.getAllFieldForm()
     const formErrors = []
