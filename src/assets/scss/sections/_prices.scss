@@ -1,0 +1,67 @@
+.prices-section {
+  background-color: #ffffff;
+  margin-bottom: 0;
+}
+
+.prices-section .section-header .title {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color:#333;
+  font-size: 40px;
+}
+
+.prices-section .section-content {
+  padding-bottom: 50px;
+}
+
+.prices-section .section-content .price-tabs {
+  background-color: #fff;
+  -webkit-box-shadow: 0 5px 20px 0 rgba(39, 39, 39, 0.1);
+  box-shadow: 0 5px 20px 0 rgba(39, 39, 39, 0.1);
+  display: inline-block;
+  padding: 7px;
+  border-radius: 40px;
+  border: 1px solid #00b5ec;
+  margin-bottom: 45px;
+}
+
+@media (min-width: 768px) {
+  .prices-section .section-content .price-tabs {
+    margin-bottom: 60px;
+  }
+}
+
+.prices-section .price-tabs .nav-link {
+  color: #00b5ec;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  padding: 12px 35px;
+  display: inline-block;
+  text-transform: capitalize;
+  border-radius: 40px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .prices-section .section-content .price-tabs .nav-link {
+    padding: 12px 40px;
+  }
+}
+
+.prices-section .section-content .price-tabs .nav-link.active {
+  background-color: #00b5ec;
+  color: #fff;
+}
+
+.prices-section .section-content .card-heading {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.prices-section .section-content .card-content {
+  background-color: #ffffff;
+  height: 522px;
+}

@@ -108,7 +108,7 @@ if (webpackAction === 'devserver') {
         {
           loader: 'file-loader',
           options: {
-            publicPath: '/dist/',
+            publicPath: './',
             name: 'fonts/[name].[ext]'
           }
         }
@@ -124,6 +124,13 @@ if (webpackAction === 'devserver') {
         {
           from: config.app.path.src + '/assets/img',
           to: config.app.path.public + '/dist/img',
+          globOptions: {
+            ignore: ['.*']
+          }
+        },
+        {
+          from: config.app.path.src + '/php',
+          to: config.app.path.public + '/ajax',
           globOptions: {
             ignore: ['.*']
           }
@@ -297,6 +304,13 @@ if (webpackAction === 'devserver') {
           {
             from: config.app.path.src + '/assets/img',
             to: config.app.path.public + '/dist/img',
+            globOptions: {
+              ignore: ['.*']
+            }
+          },
+          {
+            from: config.app.path.src + '/php',
+            to: config.app.path.public + '/ajax',
             globOptions: {
               ignore: ['.*']
             }

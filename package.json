@@ -1,6 +1,6 @@
 {
-  "name": "webpack-starter-kit",
-  "version": "0.2.0",
+  "name": "wild-circus",
+  "version": "0.1.0",
   "main": "main.js",
   "author": "dante18",
   "license": "UNLICENSED",
@@ -72,6 +72,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
     "@popperjs/core": "^2.10.2",
-    "bootstrap": "^5.1.3"
+    "bootstrap": "^5.1.3",
+    "hamburgers": "^1.1.3"
   }
 }

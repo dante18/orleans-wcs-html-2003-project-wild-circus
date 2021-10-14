@@ -1,0 +1,26 @@
+section {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+section .section-header {
+  display: flex;
+  flex-direction: column;
+  padding-top: 16px;
+}
+
+section .section-header .title {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color:#000000;
+  font-size: 20px;
+}
+
+section .section-content {
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}

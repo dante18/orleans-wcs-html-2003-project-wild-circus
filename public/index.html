@@ -10,21 +10,507 @@
     <link rel="stylesheet" href="./dist/css/main.css">
 </head>
 <body>
-<header></header>
+<header id="header" class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav id="js-navbar" class="navbar navbar-expand-lg">
+                    <div class="container-xl">
+                        <a class="navbar-brand" href="index.html">Wild Circus</a>
+                        <button id="btn-toggle" class="navbar-toggler collapsed hamburger hamburger--squeeze" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                  <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                  </span>
+                        </button>
 
-<main>
-    <section class="banner"></section>
+                        <div class="navbar-collapse collapse" id="navbarContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a href="#about" class="nav-link js-nav-link"> About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#show" class="nav-link js-nav-link"> The show</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#prices" class="nav-link js-nav-link"> Our prices</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#contact" class="nav-link js-nav-link"> Contact us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
 
-    <section id="about" class="about-section"></section>
+<main class="main">
+    <section class="banner">
+        <div class="banner-wrapper bg_cover d-flex align-items-center">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-md-10">
+                        <div class="banner_content_text">
+                            <h1 class="banner_title">Welcome to Wild Circus</h1>
+                            <h2 class="banner_subtitle">A unique and unforgettable show awaits you</h2>
+                            <a class="btn btn-custom btn-outline-transparent" href="#about">About Us</a>
+                            <a class="btn btn-custom btn-outline-transparent" href="#contact">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <section id="show" class="show-section"></section>
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-content">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="about-section-image clearfix">
+                            <div class="single-image float-left">
+                                <img src="./dist/img/background.jpg" alt="">
+                            </div>
+                            <div class="single-image image-tow float-right">
+                                <img src="./dist/img/circus-tent.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-section-content">
+                            <h3> Welcome to Wild Circus </h3>
+                            <p>
+                                Circus Wilde Circus was founded in 1890 by two brothers who were passionate about the circus world. They wanted to share
+                                their passion by offering unforgettable performances.
+                            </p>
+                            <br>
+                            <p>
+                                The first performance of the circus occurred in a small village near their home, this was their first success. 5 years
+                                later, they were performing all over the country. The two brothers decided to try a new adventure by performing in other
+                                countries. With time, their reputation grows.
+                            </p>
+                            <br>
+                            <p>After a few years, they performed all over the world by offering always beautiful and unforgettable shows to the delight
+                                of the spectators.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <section id="prices" class="prices-section"></section>
+    <section id="show" class="show-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h3 class="title"> Our show </h3>
+                        <p>Our artists will make you live an unforgettable moment
+                            thanks to their incredible number.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="section-content">
+                <div class="row">
+                    <div class="col-lg-4 mb-4">
+                        <div class="card-container">
+                            <div class="card-inner card-right">
+                                <div class="card-inner-wrapper">
+                                    <div class="card-content">
+                                        <div class="card-image">
+                                            <img src="./dist/img/show/1.jpg">
+                                        </div>
+                                        <div class="card-details">
+                                            <h4 class="card-heading">Our clown</h4>
+                                            <div class="card-text">
+                                                <p>As an adult, come and discover our irresistible clowns, between practical jokes
+                                                    and pranks let yourself be carried away by their joy and
+                                                    fall back into childhood.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="card-container">
+                            <div class="card-inner card-right">
+                                <div class="card-inner-wrapper">
+                                    <div class="card-content">
+                                        <div class="card-image">
+                                            <img src="./dist/img/show/2.jpg">
+                                        </div>
+                                        <div class="card-details">
+                                            <h4 class="card-heading">Our magicians</h4>
+                                            <div class="card-text">
+                                                <p>
+                                                    Our acrobats will present you the most incredible acrobatics you
+                                                    have ever seen, for your enjoyment.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="card-container">
+                            <div class="card-inner card-right">
+                                <div class="card-inner-wrapper">
+                                    <div class="card-content">
+                                        <div class="card-image">
+                                            <img src="./dist/img/show/3.jpg">
+                                        </div>
+                                        <div class="card-details">
+                                            <h4 class="card-heading">Our acrobats</h4>
+                                            <div class="card-text">
+                                                <p>
+                                                    Tame the untameable in the company of our tamers, between roar
+                                                    and razor-sharp claws, watch these fierce felines turn into sweet kittens.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="card-container">
+                            <div class="card-inner card-right">
+                                <div class="card-inner-wrapper">
+                                    <div class="card-content">
+                                        <div class="card-image">
+                                            <img src="./dist/img/show/4.jpg">
+                                        </div>
+                                        <div class="card-details">
+                                            <h4 class="card-heading">Our animals</h4>
+                                            <div class="card-text">
+                                                <p>
+                                                    Tame the untameable in the company of our tamers, between roar
+                                                    and razor-sharp claws, watch these fierce felines turn into sweet kittens.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <section id="contact" class="contact-section"></section>
+    <section id="prices" class="prices-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h3 class="title"> Our prices </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="section-content">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="text-center">
+                            <div class="nav price-tabs" role="tablist">
+                                <a class="nav-link active" id="week-tab" data-bs-toggle="tab" data-bs-target="#week" role="tab" aria-controls="week" aria-selected="true">week</a>
+                                <a class="nav-link" id="weekend-tab" data-bs-toggle="tab" data-bs-target="#weekend" role="tab" aria-controls="weekend" aria-selected="false">weekend</a>
+                            </div>
+                        </div>
+                        <div class="tab-content wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                            <div role="tabpanel" class="tab-pane fade show active" id="week">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-3 mb-4">
+                                        <div class="card-container">
+                                            <div class="card-inner card-right">
+                                                <div class="card-inner-wrapper">
+                                                    <div class="card-content">
+                                                        <div class="card-image">
+                                                            <img src="./dist/img/ticket.jpg">
+                                                        </div>
+                                                        <div class="card-details">
+                                                            <h4 class="card-heading">children</h4>
+                                                            <div class="card-text">
+                                                                <ul class="list-group list-group-flush">
+                                                                    <li class="list-group-item">Less than 7 years old : 5$</li>
+                                                                    <li class="list-group-item">7 to 10 years old : 9$</li>
+                                                                    <li class="list-group-item">10 to 13 years old included : 13$</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 mb-4">
+                                        <div class="card-container">
+                                            <div class="card-inner card-right">
+                                                <div class="card-inner-wrapper">
+                                                    <div class="card-content">
+                                                        <div class="card-image">
+                                                            <img src="./dist/img/ticket.jpg">
+                                                        </div>
+                                                        <div class="card-details">
+                                                            <h4 class="card-heading">Adult</h4>
+                                                            <div class="card-text">
+                                                                <ul class="list-group list-group-flush">
+                                                                    <li class="list-group-item">Over 13 years : 15$</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 mb-4">
+                                        <div class="card-container">
+                                            <div class="card-inner card-right">
+                                                <div class="card-inner-wrapper">
+                                                    <div class="card-content">
+                                                        <div class="card-image">
+                                                            <img src="./dist/img/ticket.jpg">
+                                                        </div>
+                                                        <div class="card-details">
+                                                            <h4 class="card-heading">Group</h4>
+                                                            <div class="card-text">
+                                                                <ul class="list-group list-group-flush">
+                                                                    <li class="list-group-item">5 tickets : 90$</li>
+                                                                    <li class="list-group-item">5 to 10 tickets : 130$</li>
+                                                                    <li class="list-group-item">More than 10 tickets : 170$</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 mb-4">
+                                        <div class="card-container">
+                                            <div class="card-inner card-right">
+                                                <div class="card-inner-wrapper">
+                                                    <div class="card-content">
+                                                        <div class="card-image">
+                                                            <img src="./dist/img/ticket.jpg">
+                                                        </div>
+                                                        <div class="card-details">
+                                                            <h4 class="card-heading">School or Company</h4>
+                                                            <div class="card-text">
+                                                                <ul class="list-group list-group-flush">
+                                                                    <li class="list-group-item">School : 210$</li>
+                                                                    <li class="list-group-item">Company : 250$</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="weekend">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-3 mb-4">
+                                        <div class="card-container">
+                                            <div class="card-inner card-right">
+                                                <div class="card-inner-wrapper">
+                                                    <div class="card-content">
+                                                        <div class="card-image">
+                                                            <img src="./dist/img/ticket.jpg">
+                                                        </div>
+                                                        <div class="card-details">
+                                                            <h4 class="card-heading">children</h4>
+                                                            <div class="card-text">
+                                                                <ul class="list-group list-group-flush">
+                                                                    <li class="list-group-item">Less than 7 years old : 7$</li>
+                                                                    <li class="list-group-item">7 to 10 years old : 11$</li>
+                                                                    <li class="list-group-item">10 to 13 years old included : 15$</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 mb-4">
+                                        <div class="card-container">
+                                            <div class="card-inner card-right">
+                                                <div class="card-inner-wrapper">
+                                                    <div class="card-content">
+                                                        <div class="card-image">
+                                                            <img src="./dist/img/ticket.jpg">
+                                                        </div>
+                                                        <div class="card-details">
+                                                            <h4 class="card-heading">Adult</h4>
+                                                            <div class="card-text">
+                                                                <ul class="list-group list-group-flush">
+                                                                    <li class="list-group-item">Over 13 years : 17$</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 mb-4">
+                                        <div class="card-container">
+                                            <div class="card-inner card-right">
+                                                <div class="card-inner-wrapper">
+                                                    <div class="card-content">
+                                                        <div class="card-image">
+                                                            <img src="./dist/img/ticket.jpg">
+                                                        </div>
+                                                        <div class="card-details">
+                                                            <h4 class="card-heading">Group</h4>
+                                                            <div class="card-text">
+                                                                <ul class="list-group list-group-flush">
+                                                                    <li class="list-group-item">5 tickets : 110$</li>
+                                                                    <li class="list-group-item">5 to 10 tickets : 150$</li>
+                                                                    <li class="list-group-item">More than 10 tickets : 190$</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 mb-4">
+                                        <div class="card-container">
+                                            <div class="card-inner card-right">
+                                                <div class="card-inner-wrapper">
+                                                    <div class="card-content">
+                                                        <div class="card-image">
+                                                            <img src="./dist/img/ticket.jpg">
+                                                        </div>
+                                                        <div class="card-details">
+                                                            <h4 class="card-heading">School or Company</h4>
+                                                            <div class="card-text">
+                                                                <ul class="list-group list-group-flush">
+                                                                    <li class="list-group-item">School : 230$</li>
+                                                                    <li class="list-group-item">Company : 270$</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="wrapper">
+            <div class="container">
+                <div id="alert-notification" class="alert mt-3 d-none d-flex align-items-center justify-content-around" role="alert">
+                    <div class="js-notification-text"></div>
+                </div>
+                <div class="section-header">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h3 class="title"> Contact us </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-content">
+                    <div class="row">
+                        <div class="col-8">
+                            <form class="mb-5" action="ajax/ajax.php" method="POST" id="contactForm" name="contactForm">
+                                <div class="row mt-3">
+                                    <div class="col-md-6 form-group">
+                                        <input type="text" class="form-control js-input" name="firstname" id="firstname" placeholder="Your firstname" value="">
+                                    </div>
+                                    <div class="col-md-6 form-group">
+                                        <input type="text" class="form-control js-input" name="lastname" id="lastname" placeholder="Your lastname" value="">
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col-md-12 form-group">
+                                        <input type="email" class="form-control js-input" name="email" id="email" placeholder="Your Email" value="">
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col-md-12 form-group">
+                                        <input type="text" class="form-control js-input" name="subject" id="subject" placeholder="Subject" value="">
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col-md-12 form-group">
+                                        <textarea class="form-control js-input" name="message" id="message" cols="30" rows="7" placeholder="Write your message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col-12">
+                                        <button id="btn-form-contact" type="submit" class="btn btn-custom btn-outline-white py-2 px-4">Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 
-<footer></footer>
+<footer class="bg-dark text-center text-white">
+    <div class="container p-4 pb-0">
+        <div class="mb-4 social-link">
+            <h3>Follow us</h3>
+            <ul>
+                <li>
+                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="text-center p-3 copyright">
+        ©2020-2021 Copyright:
+        <a class="text-white" href="#"> WildCircus. All Rights Reserved.</a>
+    </div>
+</footer>
+
+<!-- btn back to top -->
+<a id="js-back-to-top" href="#" class="btn-back-to-top">
+    <i class="fas fa-angle-double-up icon"></i>
+</a>
+
 <!- javascript ->
 <script src="./dist/js/vendor.js"></script>
 <script src="./dist/js/main.js"></script>
