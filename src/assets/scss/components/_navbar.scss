@@ -1,0 +1,140 @@
+.navbar {
+  padding: 20px 0;
+  border-radius: 5px;
+  position: relative;
+  transition: all .3s ease-out 0s;
+}
+
+.navbar .navbar-brand {
+  padding: 0;
+  color: #ffffff;
+}
+
+.navbar .navbar-brand:hover {
+  color: #d13800;
+}
+
+.navbar .navbar-brand img {
+  width: 30px;
+  height: 30px;
+}
+
+.navbar .hamburger-inner,
+.navbar .hamburger-inner:after,
+.navbar .hamburger-inner:before {
+  background-color: #ffffff;
+}
+
+.navbar .hamburger.is-active .hamburger-inner,
+.navbar .hamburger.is-active .hamburger-inner:after,
+.navbar .hamburger.is-active .hamburger-inner:before {
+  background-color: #ffffff;
+}
+
+.navbar-toggler {
+  padding: 0
+}
+
+.navbar-toggler span {
+  color: #fff;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none
+}
+
+.navbar-nav .nav-item {
+  position: relative;
+  margin-left: 40px
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-family: "Amatic SC", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+  transition: all .3s ease-out 0s;
+  padding: 10px 0;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.navbar-nav .nav-item .nav-link::before {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color: #d13800;
+  transition: all .3s ease-out 0s;
+}
+
+.navbar-nav .nav-item .nav-link.active::before,
+.navbar-nav .nav-item .nav-link:hover::before {
+  width: 100%;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #ffffff;
+}
+
+@media(max-width: 767px) {
+  .navbar-brand img {
+    width: 130px;
+  }
+
+  .navbar-nav .nav-item {
+    margin: 0
+  }
+
+  .navbar-nav .nav-item .nav-link::before {
+    display: none
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    display: block;
+    padding: 4px 0;
+    color: #222
+  }
+}
+
+@media(max-width: 1000px ) {
+  .navbar .navbar-collapse {
+    background: transparent;
+  }
+
+  .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+    color: #ffffff;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+  }
+
+  .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover,
+  .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:active {
+    color: #d13800;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .navbar-nav .nav-item {
+    margin: 0
+  }
+
+  .navbar-nav .nav-item .nav-link::before {
+    display: none
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    display: block;
+    padding: 4px 0;
+    color: #222
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .navbar-nav .nav-item {
+    margin-left: 30px
+  }
+}
