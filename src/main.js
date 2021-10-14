@@ -13,3 +13,9 @@ if (document.getElementsByClassName(Variables.header.navbar.id)) {
     module.Navbar.eventManager()
   })
 }
+
+if (document.getElementsByClassName(Variables.btnBackToTop.linkClassName)) {
+  import(/* webpackMode: "eager" */ './assets/js/modules/btnBackToTop/btnBackToTopManager').then(module => {
+    module.btnBackToTopManager.eventManager()
+  })
+}
