@@ -7,3 +7,9 @@ if (document.querySelector(Variables.contact.form.id)) {
     module.contactFormManager.contactFormManager()
   })
 }
+
+if (document.getElementsByClassName(Variables.header.navbar.id)) {
+  import(/* webpackMode: "eager" */ './assets/js/modules/navbarManager/navbarManager').then(module => {
+    module.Navbar.eventManager()
+  })
+}

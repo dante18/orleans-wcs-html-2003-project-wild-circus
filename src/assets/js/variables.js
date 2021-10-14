@@ -1,4 +1,13 @@
 export const Variables = {
+  header: {
+    id: '#header',
+    customCssClass: 'header-sticky',
+    navbar: {
+      id: '#js-navbar',
+      btnToggleId: '#btn-toggle',
+      linkClassName: '.js-nav-link'
+    }
+  },
   contact: {
     form: {
       id: '#contactForm',
