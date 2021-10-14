@@ -18,5 +18,8 @@ export const Variables = {
         contentCssClass: '.js-notification-text'
       }
     }
+  },
+  btnBackToTop: {
+    id: '#js-back-to-top'
   }
 }
