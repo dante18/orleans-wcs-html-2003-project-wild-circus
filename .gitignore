@@ -44,6 +44,3 @@ Thumbs.db
 *.mov
 *.wmv
 
-# other
-.docker
-public/ajax/ajax.php
