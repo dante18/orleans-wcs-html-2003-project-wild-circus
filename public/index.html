@@ -10,14 +10,75 @@
     <link rel="stylesheet" href="./dist/css/main.css">
 </head>
 <body id="app">
-    <header id="header" class="header"></header>
+<header id="header" class="header">
+    <div class="container">
+        <div class="col-12">
+            <nav id="navbar" class="navbar navbar-expand-lg">
+                <div class="container-xl">
+                    <a class="navbar-brand" href="index.html">Wild Circus</a>
+                    <button id="btn-toggle" class="navbar-toggler collapsed hamburger hamburger--squeeze" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                  <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                  </span>
+                    </button>
 
-    <main class="main"></main>
+                    <div class="navbar-collapse collapse" id="navbarContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a href="#about" class="nav-link js-nav-link"> About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#show" class="nav-link js-nav-link"> The show</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#performanceDates" class="nav-link js-nav-link"> Our performance dates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#prices" class="nav-link js-nav-link"> Our prices</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#contact" class="nav-link js-nav-link"> Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
 
-    <footer class="bg-dark text-center text-white"></footer>
+<main class="main">
+    <section class="banner">
+        <div class="banner-wrapper bg-cover d-flex align-items-center justify-content-center">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-md-10">
+                        <div class="banner-content-text me-5 pe-5">
+                            <h1 class="banner-title">Welcome to Wild Circus</h1>
+                            <h2 class="banner-subtitle">A unique and unforgettable show awaits you</h2>
+                            <a class="btn btn-custom btn-outline-transparent" href="#about">About Us</a>
+                            <a class="btn btn-custom btn-outline-transparent" href="#contact">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!-- javascript -->
-    <script src="./dist/js/vendor.js"></script>
-    <script src="./dist/js/main.js"></script>
+    <section id="about"></section>
+    <section id="show"></section>
+    <section id="performanceDates"></section>
+    <section id="prices"></section>
+    <section id="contact"></section>
+</main>
+
+<footer class="bg-dark text-center text-white"></footer>
+
+<!-- javascript -->
+<script src="./dist/js/vendor.js"></script>
+<script src="./dist/js/main.js"></script>
 </body>
 </html>

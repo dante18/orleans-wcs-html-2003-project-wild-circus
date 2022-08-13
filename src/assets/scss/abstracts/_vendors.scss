@@ -1,0 +1,12 @@
+/* Boostrap */
+@import "~bootstrap/scss/bootstrap";
+
+/* Fontawesome library */
+$fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+
+/* Hamburgers library */
+@import "~hamburgers/dist/hamburgers.min.css";

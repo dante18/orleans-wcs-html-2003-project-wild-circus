@@ -1,0 +1,33 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  transition: all .3s ease-out 0s;
+}
+
+.header-sticky {
+  position: fixed;
+  z-index: 99;
+  background-color: rgba(33, 37, 41, 1);
+  box-shadow: 0 20px 50px 0 rgba(0, 0, 0, .05);
+  transition: all .3s ease-out 0s;
+}
+
+.header-sticky .navbar {
+  padding: 15px 0;
+}
+
+.header-sticky .navbar-nav .nav-item .nav-link {
+  color: #ffffff;
+}
+
+.header-sticky .navbar-nav .nav-item .nav-link::before {
+  background-color: #d13800;
+}
+
+.header-sticky .navbar-nav .nav-item .nav-link.active,
+.header-sticky .navbar-nav .nav-item .nav-link:hover {
+  color: #ffffff;
+}
